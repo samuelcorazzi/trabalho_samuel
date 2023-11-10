@@ -1,0 +1,61 @@
+style.css
+body {
+    background-color: #726d72;
+    font-family: Arial, sans-serif;
+    line-height: 1.6em;
+    color: #333;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h3 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 17px;
+}
+
+input[type="radio"] {
+    margin: 10px 5px;
+}
+
+input[type="radio"]:checked + label {
+    color: #f00;
+}
+
+.warning {
+    background-color: red;
+    color: white;
+  }
+  
+  .green {
+    background-color: rgba(144, 238, 144, 1);
+  }
+
+  button {
+    background-color: hsla(0, 3%, 68%, 0.712); /* Cor de fundo */
+    color: #000000; /* Cor do texto */
+    border: 3px solid #555; /* Cor da borda */
+    padding: 5px 10px; /* EspaÃ§amento interno */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Cursor ao passar por cima */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: background-color 0.3s, color 0.3s; /* TransiÃ§Ã£o suave de cor ao passar o mouse */
+    box-shadow: 0 2px 4px rgba(0, 255, 170, 0.1);
+    margin: 20px;
+}
+
+
+button:hover {
+    background-color: #333; /* Cor de fundo ao passar o mouse */
+    color: #fff; /* Cor do texto ao passar o mouse */
+}
